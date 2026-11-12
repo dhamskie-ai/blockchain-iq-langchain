@@ -1,0 +1,23 @@
+{
+  "name": "@dhamskie/blockchain-iq-langchain",
+  "version": "1.0.0",
+  "description": "LangChain tools for the Blockchain IQ x402 API (USDC on Base)",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "example": "node examples/paid-brief-call.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^1.4.0",
+    "@x402/core": "^2.30.0",
+    "@x402/evm": "^2.30.0",
+    "viem": "^2.57.19",
+    "zod": "^4.6.7"
+  },
+  "type": "module"
+}
